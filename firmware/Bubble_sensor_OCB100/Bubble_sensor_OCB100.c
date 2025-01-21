@@ -65,7 +65,7 @@ void main(void)
 void init(void)
 {
     TRISIO = 0b00011001; // GP0 and GP3 as inputs, others as outputs
-    ANSEL  = 0b00010001;  // AN0, AN4 (GP0 & GP4) as analog input
+    ANSEL  = 0b00010001; // AN0, AN4 (GP0 & GP4) as analog input
     CMCON0 = 0x07;       // Disable comparators
     ADC_Init();          // Initialize ADC
     LED1_PIN = 0;
@@ -88,9 +88,9 @@ void calibrate(void)
     LED2_PIN = 0;
     dutyCycle = 0;
 
-    calibrationSuccess  = false;               // Flag for successful calibration
-    closest_voltage = 0;              // Store the closest voltage to the target
-    closest_dutyCycle = 0;     // Store the duty cycle for the closest voltage
+    calibrationSuccess  = false;  // Flag for successful calibration
+    closest_voltage = 0;          // Store the closest voltage to the target
+    closest_dutyCycle = 0;        // Store the duty cycle for the closest voltage
 
     target_voltage = readVoltage(4);  // Read the target voltage from ADC channel 4
 
