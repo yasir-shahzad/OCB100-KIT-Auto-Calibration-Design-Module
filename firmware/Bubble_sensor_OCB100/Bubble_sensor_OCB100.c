@@ -132,6 +132,7 @@ void calibrate(void)
 
     // Finalize calibration and validate results
     PWM1_set_Duty(closest_dutyCycle);
+    dutyCycle = closest_dutyCycle;
 
     if (calibrationSuccess  == true) {
         // Blink LED2 to indicate success
