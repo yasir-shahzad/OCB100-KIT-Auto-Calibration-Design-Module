@@ -73,13 +73,11 @@ void init(void)
 }
 
 /**
- * @brief Adjusts the output voltage to match the target voltage using an RC PWM signal.
+ * @brief Calibrates the output voltage to match the target using PWM.
  *
- * This function reads the target voltage and adjusts the PWM duty cycle to achieve
- * the closest match to the target voltage. It evaluates whether increasing (+1)
- * or decreasing (-1) the PWM duty cycle brings the output voltage closer to the target.
- * The closest voltage is considered sufficient, and the corresponding duty cycle 
- * is stored in EEPROM for future use.
+ * Reads the target voltage from ADC and iteratively adjusts the PWM duty cycle 
+ * to achieve the closest match. Saves the final duty cycle to EEPROM on success 
+ * and indicates status using LEDs (LED2 for success, LED1 for failure).
  */
 void calibrate(void)
 {
