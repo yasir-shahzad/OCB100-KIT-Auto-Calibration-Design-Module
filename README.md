@@ -4,43 +4,26 @@ The **OCB100-KIT Auto-Calibration Design Module** is a comprehensive solution de
 
 ---
 
-## **Features**
-- **Automatic Calibration**: Dynamically adjusts parameters to match the target values.
-- **Integrated Firmware**: Includes modular and reusable firmware for easy customization.
-- **Hardware Design**: Complete hardware schematics and PCB layouts for seamless integration.
-- **User-Friendly Documentation**: Detailed user manuals and calibration procedures for smooth setup and operation.
-- **Open Source**: Provided under the MIT License, encouraging contributions and collaborations.
+- ## Key Features
+- 🎯 **Automatic Calibration:** Dynamically fine-tunes parameters to precisely match target values.  
+- 💾 **Integrated Firmware:** Modular and reusable firmware for seamless customization and updates.  
+- 🔧 **Hardware Design:** Complete schematics and PCB layouts for effortless integration.  
+- 📖 **User-Friendly Documentation:** Step-by-step manuals and calibration guides for smooth setup.  
+- 🚀 **Open Source:** MIT-licensed, fostering community contributions and innovation.  
+
+## Applications  
+
+- 🏥 **Medical Devices:** Ensures precise fluid monitoring in IV drips and dialysis machines.  
+- 🏭 **Industrial Automation:** Enhances liquid level detection in manufacturing processes.  
+- 🚗 **Automotive Systems:** Supports fuel and coolant level sensing for optimal performance.  
+- 🔬 **Laboratory Equipment:** Provides high-precision calibration for scientific instruments.     
+- 🌱 **Environmental Monitoring:** Detects liquid levels in water treatment and irrigation systems.  
 
 
 
-
-
-
-# CLN - CLOSED-LOOP DRIVERS FOR NEMA MOTORS
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](license.md)
 
-[![CLN17](./wiki/assets/CLN17.jpg)](https://www.youtube.com/watch?v=A67UROq0t6Q)
-
-The CLN motor driver series is an **open-source** project aimed at creating a range of compact, cost-efficient high-performance closed-loop stepper drivers for various NEMA form factor motors. These drivers are designed to provide silent and smooth motion, high-precision position control, and energy-saving capabilities, suitable for a wide array of applications in robotics, CNC machines, 3D printers, and more.
-
-## Key Features
-
-- 🕹️ **Closed-Loop Control:** Integrates an encoder for real-time position monitoring, ensuring precise and safe motion.
-- 📏 **Fine Positioning:** Achieves high position control accuracy of 0.01° for smooth operation.
-- 🛡️ **Reliable Operation and Enhanced Safety:** Features integrated diagnostic and protection mechanisms for the motor and the user safety.
-- 🧩 **Modular Concept:** Offers various configurations for different cost, size and performance needs, supporting expansion boards and daisy chain connections.
-
-## Applications
-
-- 🎓 Learning Platforms
-- 🛠️ CNC Machines & 3D printers
-- 🤖 Robotics & Automation Systems
-- 🤝 Collaborative Robots
-- 🔭 Camera & Telescope Stabilization Systems
-- 🔬 Laboratory Equipment
-- 🏭 Industrial Motion Control Systems
-- 📳 Haptics & Force Feedback Systems
 
 ## Repository Structure
 
@@ -194,6 +177,6 @@ OCB100-KIT-Auto-Calibration-Design-Module/
 
 ---
 
-***Important Note:** This README will be updated to reflect the latest progress and changes in the project*.
+
 
 
