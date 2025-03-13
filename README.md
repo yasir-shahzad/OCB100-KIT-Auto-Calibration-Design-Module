@@ -1,5 +1,8 @@
 # OCB100-KIT Auto-Calibration Design Module
 
+[![Discord](https://img.shields.io/discord/1098363068435681290?style=social&logo=discord&label=COMMUNITY)](https://discord.gg/HtTujA2N)
+
+
 The **OCB100-KIT Auto-Calibration Design Module** is a comprehensive solution designed to automate the calibration process for bubble sensors. By dynamically adjusting system parameters to match the target values, this module ensures accurate performance without requiring manual intervention. It provides an intuitive platform for automatic parameter tuning, making it ideal for applications requiring high precision and reliability.
 
 ---
