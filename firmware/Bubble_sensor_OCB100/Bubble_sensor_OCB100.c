@@ -138,7 +138,7 @@ void calibrate(void)
             LED2_PIN = !LED2_PIN;
             Delay_ms(250);
         }
-        EEPROM_Write(NVM_ADDRESS, dutyCycle);
+        EEPROM_Write(NVM_ADDRESS, dutyCycle); //success
     } else {
         LED1_PIN = 1;  // Turn on LED1 to indicate failure
     }
